@@ -118,7 +118,7 @@ article h1{
     width:100%;
     position: relative;
     top: 100px;
-    font-size: 40px;
+    font-size: 35px;
 
 }
 aside{
@@ -134,7 +134,7 @@ aside > h2{
     font-size: 25px;
 }
 aside p{
-    font-size: 25px;
+    font-size: 23px;
     font-weight: normal;
     margin-top: 10px;
 }
