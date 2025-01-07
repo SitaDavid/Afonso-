@@ -157,7 +157,8 @@ main p{
 }
 p{
     margin-top:10px;
-font-weight: normal;
+    font-weight: normal;
+font-siz:23px;
 }
 main img{
     margin-top: 20px;
