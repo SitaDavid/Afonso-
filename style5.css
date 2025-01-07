@@ -1,0 +1,190 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+
+}
+body{
+    background-color:#fff;
+}
+:root{
+    --cor1:rgb(33, 179, 247);
+    --cor2:rgb(39, 184, 252);
+    --cor3:rgb(0, 67, 94);
+}
+header {
+    padding:35px;
+    position:fixed;
+    background-color: #fff;
+    top:0px;
+    left:0px;
+    right:0px;
+    box-shadow: 0px 1.20px 0px #e9e7e7;
+    }
+    header i{
+        box-shadow: 1px 1px 1px #000;
+        color:#000;
+        font-weight: bolder;
+        font-size:40px;
+        position: absolute;
+        top:300px;
+        left: 5px;
+        cursor: pointer;
+        float: hidden;
+    }
+    header i:hover{
+        font-size: 45px;
+    }
+     
+    header .logo{
+        width: 150px;
+        height: 50px;
+        top:10px;
+        position: fixed;
+        left: 20px;
+        animation: logo 4s infinite;
+    }
+    @keyframes logo{
+        0%{
+            margin-top: -45px;
+            margin-bottom: 5px;
+        }
+    }
+nav{
+    position: fixed;
+    top:05px;
+    left:170px;
+    min-width:450px ;
+}
+nav a{
+    color: #000;
+    margin-right: 5px;
+    text-decoration:none;
+    font-size: 22px;
+    font-weight: normal;
+    font-family:serif;
+}
+nav a:hover{
+    background-color: rgb(1, 86, 112);
+    border-radius: 05px;
+    color:#fff;
+    transition-duration:0.90s;
+}
+nav a:active{
+color: blue;
+}
+nav a:visited{
+    text-decoration: underline;
+}
+.nav{
+  font-size:20px;
+}
+#icon{
+    color: #000;
+    position: fixed;
+    font-size: 50px;
+    font-weight: bolder;
+    top: 00px;
+    right: 50px;
+}
+main{
+    background-color: #fff;
+    border-radius: 10px;
+    min-width:320px;
+    max-width: 950px;
+    margin: auto;
+    margin-top: 100px;
+    padding:20px;
+    text-align: justify;
+    font-weight: normal;
+}
+main article{
+    height: 60vh;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #000;
+    background-image: url('imagens/banco-de-dados.jpg');
+    background-position: center center;
+    background-size: cover;
+    font-weight: normal;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+article h1{
+    color:#030303;
+    width:100%;
+    position: relative;
+    top: 100px;
+    font-size: 40px;
+
+}
+aside{
+    margin-top: 20px;
+}
+aside > h1{
+    color: var(--cor3);
+font-size: 45px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+aside > h2{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+aside p{
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+aside .link_para_baixar{
+    background-color:rgb(3, 119, 173);
+    color: #fff;
+    padding:10px;
+    box-shadow: 1px 1px 1px 1px rgb(0, 195, 255);
+    font-size:30px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+aside .link_para_baixar:hover{
+    box-shadow: 1px 1px 1px 1px rgb(0, 81, 255);
+}
+aside .text{
+  font-size: 37px;
+}
+ul{
+    margin-top: 20px;
+}
+ul li ,a{
+    font-size: 20px;
+    color: var(--cor2);
+    text-decoration: none;
+}
+ul a::after{
+    color: blue;
+    content: '[link]';
+}
+ul a:hover{
+    color: blue;
+}
+ul a:active{
+    color: red;
+}
+ul a:visited{
+    text-decoration: underline;
+}
+footer{
+    background-color:#fff;
+    color: #000;
+    text-align: center;
+    font-family:serif;
+    font-size:20px;
+    margin-top: 20px;
+    box-shadow: inset 0px 1.20px 0px #e9e7e7;
+}
+footer:hover{
+    background-color: #e9e9e9;
+}
+
+

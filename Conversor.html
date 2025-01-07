@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luck programaming</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   
+</head>
+<style>
+body{
+  background-color:#000;
+}
+  div{
+    background-color:grey;
+    padding:50px;
+    box-shadow:1px 1px 1px 1px #000;
+  }
+   p{
+    color:#fff;
+    font-size:30px;
+    border:solid blue;
+    font-weight:bold;
+  }
+  #res{
+    color:#fff;
+    background-color:blue;
+    font-size:45px;
+    display:none;
+  }
+  div input{
+    padding:05px;
+    border-radius:10px;
+  }
+  div button{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:5px;
+    background-color:darkblue;
+    color:#fff;
+  }
+</style>
+<body>
+<p>Conversor</p>
+<div>
+<input type="number" id="valor"placeholder="digite o valor a converter">
+<button onclick="convert()">Converter</button>
+<div id="res"> </div>
+</div>
+</body>
+<script>
+function convert(){
+let res=document.getElementById('res')
+let valor=parseInt(document.getElementById('valor').value)
+if(valor===" "){
+res.style.display="block"
+  res.innerHTML="preencha formulário"
+}
+let b=prompt("digite a base");
+let c= valor.toString(b)
+res.style.display="block"
+res.innerHTML= c;
+}
+</script>
+</html>
