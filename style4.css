@@ -221,6 +221,10 @@ footer{
   background-color: #fff;
     box-shadow:inset 0px 1.20px 0px #e9e7e7;
     font-weight: normal;
+position:fixed;
+left:0px;
+right:0px;
+bottom:0px;
 }
 footer p{
     color: #000;
