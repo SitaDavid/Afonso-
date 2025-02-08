@@ -6,7 +6,7 @@
 header {
 padding:35px;
 position:fixed;
-background-color: #000;
+background-color: #fff;
 top:0px;
 left:0px;
 right:0px;
@@ -227,7 +227,7 @@ right:0px;
 bottom:0px;
 }
 footer p{
-    color: #000;
+    color: #fff;
     text-align: center;
     font-family:serif;
     font-size:20px;
