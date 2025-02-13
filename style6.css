@@ -87,6 +87,7 @@ article p{
 }
 div{
     margin-top: 30px;
+    margin-bottom:10px;
 }
 div p{
   position:relative;
