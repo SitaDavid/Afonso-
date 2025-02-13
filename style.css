@@ -65,8 +65,8 @@ cursor: pointer;
 }
 main{
     margin-top:200px;
-    max-width: 850px;
-    min-width:120px;
+    max-width: 1500px;
+    min-width:100px;
     margin: auto;
 }
 main h2{
