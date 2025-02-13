@@ -115,7 +115,10 @@ footer{
     text-align: center;
     font-family:serif;
     font-size:20px;
-    margin-top:0px;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
     box-shadow: inset 0px 1.20px 0px #f3f2f2;
 }
 footer:hover{
