@@ -89,8 +89,8 @@ nav a:visited{
 main{
     background-color: #fff;
     border-radius: 10px;
-    min-width:320px;
-    max-width: 950px;
+    min-width:100px;
+    max-width:1500px;
     margin: auto;
     margin-top: 100px;
     padding:20px;
