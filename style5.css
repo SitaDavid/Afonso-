@@ -180,6 +180,10 @@ footer{
     text-align: center;
     font-family:serif;
     font-size:20px;
+    position:fixed;
+    bottom:0px;
+    left:0px;,
+    right:0px;
     margin-top: 20px;
     box-shadow: inset 0px 1.20px 0px #e9e7e7;
 }
