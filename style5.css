@@ -183,8 +183,7 @@ footer{
     position:fixed;
     bottom:0px;
     left:0px;,
-    right:0px;
-    margin-top: 20px;
+    right:0px;
     box-shadow: inset 0px 1.20px 0px #e9e7e7;
 }
 footer:hover{
